@@ -1,0 +1,113 @@
+<div class="cards">
+      <img src="chef2.jpg" alt="image2" />
+      <p>
+        <h3>Mrs. Zenith</h3>
+        An excellent chef, won a lot of titles in cooking and has a great sense of serving food!
+      </p>
+      <a href=""><button>read more</button></a>
+    </div>
+
+#expert {
+  background: white;
+  min-height: 80vh;
+}
+
+#expert .text .headline {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 2rem;
+}
+
+#expert .text h1 {
+  font-size: 3rem;
+  color: #000;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#expert .text h1 span {
+  color: #fff200;
+}
+
+#expert .card-container2 {
+  width: 95%;
+  margin: 0rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#expert .card-container2 .cards {
+  height: 20rem;
+  width: 17rem;
+  background: rgb(236, 230, 230);
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+#expert .card-container2 .cards img {
+  height: 50%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#expert .card-container2 .cards p {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
+#expert .card-container2 .cards button {
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 2.5rem;
+  width: 9rem;
+  background: #333;
+  color: #fff;
+}
+
+#expert .card-container2 .cards button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff200;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  z-index: -1;
+}
+
+#expert .card-container2 .cards button:hover::before {
+  width: 100%;
+}
+
+#expert .card-container2 .cards button:hover {
+  color: #333;
+}
+
+#expert .card-container2 .cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
