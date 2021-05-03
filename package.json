@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant/issues"
   },
-  "homepage": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant#readme"
+  "homepage": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant#readme",
+  "dependencies": {
+    "readme-md-generator": "^1.0.0"
+  }
 }
