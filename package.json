@@ -1,0 +1,26 @@
+{
+  "name": "sara-personal-assistant",
+  "version": "1.0.0",
+  "description": "This project aims at making a virtual P.A. with better UI and more flexibility to more user commands. \r In the code files, you can see the HTMl, CSS and JavaScript documents which are the main files. Other than these \r you can see the assets (images,videos and sounds) and two other folders- The Welcome Page and the JukeBox.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant.git"
+  },
+  "keywords": [
+    "personal-assistant",
+    "javascript"
+  ],
+  "author": "Pseudo-Pythonic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant/issues"
+  },
+  "homepage": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant#readme",
+  "dependencies": {
+    "readme-md-generator": "^1.0.0"
+  }
+}
