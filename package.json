@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xKaran/Sara-Personal-Assistant.git"
+    "url": "git+https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant.git"
   },
   "keywords": [
     "personal",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xKaran/Sara-Personal-Assistant/issues"
+    "url": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant/issues"
   },
-  "homepage": "https://github.com/xKaran/Sara-Personal-Assistant#readme"
+  "homepage": "https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant#readme"
 }
