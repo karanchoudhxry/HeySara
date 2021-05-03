@@ -7,7 +7,7 @@
   <a href="https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com//Sara-Personal-Assistant/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/Sara-Personal-Assistant/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Pseudo-Pythonic/sara-personal-assistant" />
   </a>
 </p>
@@ -20,14 +20,14 @@
 
 ## Author
 
-[Pseudo-Pythonic](https://github.com/Pseudo-Pythonic)
-[Karan Choudhary](https://github.com/xKaran)
+* [Pseudo-Pythonic](https://github.com/Pseudo-Pythonic)
+* [Karan Choudhary](https://github.com/xKaran)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant/issues). You can also take a look at the [contributing guide](https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant/blob/master/CONTRIBUTING.md).
 
-# 👨🏻‍💻 How to get started?
+## 👨🏻‍💻 How to get started?
 
 You can refer to the following articles on  **_basics of Git and Github in case you are stuck_**:
 
