@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to sara-personal-assistant 👋</h1>
+<h1 align="center">Welcome to Sara-Personal-Assistant 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant#readme" target="_blank">
