@@ -56,38 +56,3 @@ body {
     padding-bottom: 6px;
     margin-bottom: 8px;
   }
-  #whenSignedOut {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    word-spacing: 1px;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    font-family: Inter, -apple-system, Nunito, BlinkMacSystemFont, "Segoe UI",
-      Roboto, sans-serif;
-    color: #000;
-    font-size: 16px;
-    user-select: none;
-    -webkit-user-drag: none;
-    box-sizing: border-box;
-    margin: 0;
-    transform: rotate(17deg) scale(0.5);
-  }
-  #whenSignedOut button {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 5px;
-    padding-top: 4px;
-    padding-left: 8px;
-    padding-right: 15px;
-    border-radius: 30px;
-    font-size: 20px;
-    outline: none;
-    border: none;
-    font-family: "Lexend", sans-serif;
-  }
-  #whenSignedOut button .fab {
-    padding: 10px;
-  }
-  #nav ul {
-    padding: 0px 0px 0px 25px;
-  }
