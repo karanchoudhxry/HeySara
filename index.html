@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sara</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <script>
+var firebaseConfig = {
+    apiKey: "AIzaSyDOT8qx1RANYaxjmatYeWsPvrdmx52j2Qc",
+    authDomain: "sara-assistant.firebaseapp.com",
+    projectId: "sara-assistant",
+    storageBucket: "sara-assistant.appspot.com",
+    messagingSenderId: "1069881480493",
+    appId: "1:1069881480493:web:970c53fcb188e976d32fa4",
+    measurementId: "G-XJQHSZBKL1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+    </script>
 </head>
 <body>
+    <div class="center-bar-wrap" id="signup">
+        <div class="center-bar">
+            <section id="whenSignedOut">
+                <div class="signUpSection">
+                    <!-- <img src="./src/assets/logo.png" alt=""> -->
+                    <button id="signInBtn"><i class="fab fa-google"></i>Sign in with Google</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section id="whenSignedIn" hidden="true">
+        <nav id="nav">
+            <div id="userDetails"></div>
+        </nav>
+    </section>
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=mRuyi1Z9"></script>
     <script src="./src/scripts/script.js"></script>
 </body>
