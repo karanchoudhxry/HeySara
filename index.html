@@ -14,27 +14,27 @@
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
 
     <script>
-var firebaseConfig = {
-    apiKey: "AIzaSyDOT8qx1RANYaxjmatYeWsPvrdmx52j2Qc",
-    authDomain: "sara-assistant.firebaseapp.com",
-    projectId: "sara-assistant",
-    storageBucket: "sara-assistant.appspot.com",
-    messagingSenderId: "1069881480493",
-    appId: "1:1069881480493:web:970c53fcb188e976d32fa4",
-    measurementId: "G-XJQHSZBKL1"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+        var firebaseConfig = {
+            apiKey: "AIzaSyDOT8qx1RANYaxjmatYeWsPvrdmx52j2Qc",
+            authDomain: "sara-assistant.firebaseapp.com",
+            projectId: "sara-assistant",
+            storageBucket: "sara-assistant.appspot.com",
+            messagingSenderId: "1069881480493",
+            appId: "1:1069881480493:web:970c53fcb188e976d32fa4",
+            measurementId: "G-XJQHSZBKL1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
     </script>
 </head>
 <body>
-            <section id="whenSignedOut">
-                <div class="signUpSection">
-                    <!-- <img src="./src/assets/logo.png" alt=""> -->
-                    <button id="signInBtn"><i class="fab fa-google"></i>Sign in with Google</button>
-                </div>
-            </section>
+    <section id="whenSignedOut">
+        <div class="signUpSection">
+            <!-- <img src="./src/assets/logo.png" alt=""> -->
+            <button id="signInBtn"><i class="fab fa-google"></i>Sign in with Google</button>
+        </div>
+    </section>
     <section id="whenSignedIn" hidden="true">
         <nav id="nav">
             <div id="userDetails"></div>
