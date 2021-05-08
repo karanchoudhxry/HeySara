@@ -1,11 +1,14 @@
-const signInBtn = document.getElementById('signInBtn');
-const signOutBtn = document.getElementById('signOutBtn');
-
-const whenSignedIn = document.getElementById('whenSignedIn');
-const whenSignedOut = document.getElementById('whenSignedOut');
-const userDetails = document.getElementById('userDetails');
-
 const auth = firebase.auth();
+
+const whenSignedIn = document.getElementById("whenSignedIn");
+const whenSignedOut = document.getElementById("whenSignedOut");
+
+const signInBtn = document.getElementById("signInBtn");
+const signOutBtn = document.getElementById("signOutBtn");
+
+const userDetails = document.getElementById("userDetails");
+// const nav = document.getElementById("nav");
+
 const provider = new firebase.auth.GoogleAuthProvider();
 
 /// Sign in event handlers
@@ -19,7 +22,9 @@ auth.onAuthStateChanged(user => {
         // signed in
         whenSignedIn.hidden = false;
         whenSignedOut.hidden = true;
-        userDetails.innerHTML = `<img src="${user.photoURL}"><p>User ID: ${user.displayName}</p>`;
+        userDetails.innerHTML = `<img src="${user.photoURL}"><p>${user.displayName}</p>`;
+        document.getElementById("whenSignedOut").style.display = "none";
+
     } else {
         // not signed in
         whenSignedIn.hidden = true;
