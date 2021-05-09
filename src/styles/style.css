@@ -29,4 +29,6 @@ body {
 
   nav #time{
     color: white;
+    text-align: center;
+    margin: 0;
   }
