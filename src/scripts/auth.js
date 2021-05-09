@@ -3,7 +3,7 @@ auth.onAuthStateChanged((user) => {
       // signed in
       whenSignedIn.hidden = false;
       whenSignedOut.hidden = true;
-      userDetails.innerHTML = `<img src="${user.photoURL}"><div class="userInfo"><h3>${user.displayName}</h3><p>${user.email}</p></div>`;
+      userDetails.innerHTML = `<img src="${user.photoURL}"><div class="userInfo"><h3>${user.displayName}</h3></div>`;
       document.getElementById("whenSignedOut").style.display = "none";
     } else {
       // not signed in
