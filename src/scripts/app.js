@@ -1,3 +1,5 @@
+const body = document.body;
+
 body.onload = () => {
     var today = new Date();
     var h = today.getHours();
