@@ -17,6 +17,21 @@ signInBtn.onclick = () => auth.signInWithPopup(provider);
 
 signOutBtn.onclick = () => auth.signOut();
 
+body.onload = () => {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('time').innerHTML =
+    h + ":" + m;
+    var t = setTimeout(startTime, 1000);
+  }
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
 // var transcript,a,date,hours;
 // var greetings = ['hello','hey there','hi','howdy','hola','hi there','hey']; // A list of greetings that the assistant replies when the transcript is equal to "hello"
 // var music_cmnds = ['music','tune','songs','rhythm'];
