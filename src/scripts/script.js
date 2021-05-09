@@ -17,21 +17,22 @@ signInBtn.onclick = () => auth.signInWithPopup(provider);
 
 signOutBtn.onclick = () => auth.signOut();
 
-auth.onAuthStateChanged(user => {
-    if (user) {
-        // signed in
-        whenSignedIn.hidden = false;
-        whenSignedOut.hidden = true;
-        userDetails.innerHTML = `<img src="${user.photoURL}"><p>${user.displayName}</p>`;
-        document.getElementById("whenSignedOut").style.display = "none";
-
-    } else {
-        // not signed in
-        whenSignedIn.hidden = true;
-        whenSignedOut.hidden = false;
-        userDetails.innerHTML = '';
-    }
+auth.onAuthStateChanged((user) => {
+  if (user) {
+    // signed in
+    whenSignedIn.hidden = false;
+    whenSignedOut.hidden = true;
+    userDetails.innerHTML = `<img src="${user.photoURL}"><div class="userInfo"><h3>${user.displayName}</h3><p>${user.email}</p></div>`;
+    // document.getElementById("whenSignedOut").style.display = "none";
+  } else {
+    // not signed in
+    whenSignedIn.hidden = true;
+    whenSignedOut.hidden = false;
+    userDetails.innerHTML = "";
+  }
 });
+
+
 // var transcript,a,date,hours;
 // var greetings = ['hello','hey there','hi','howdy','hola','hi there','hey']; // A list of greetings that the assistant replies when the transcript is equal to "hello"
 // var music_cmnds = ['music','tune','songs','rhythm'];
