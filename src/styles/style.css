@@ -13,8 +13,16 @@ body {
   }
   .userInfo{
     color: white;
+    text-align: center;
+    margin: 0;
   }
 
   #userDetails img{
     border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    max-width: 40%;
+    padding: 20px;
   }
