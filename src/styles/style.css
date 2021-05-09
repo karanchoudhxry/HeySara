@@ -26,3 +26,7 @@ body {
     max-width: 40%;
     padding: 20px;
   }
+
+  nav #time{
+    color: white;
+  }
