@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sara</title>
+    <title>heySara</title>
     <link rel="stylesheet" href="./src/styles/style.css">
-    <link rel="shortcut icon" href="src/assets/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
 
     <!-- FIREBASE -->
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+    
+    <!-- DON'T REMOVE THESE -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script> -->
 
-    <!-- Firebase Initialisation -->
+    <!-- Firebase Config -->
     <script>
         var firebaseConfig = {
             apiKey: "AIzaSyDOT8qx1RANYaxjmatYeWsPvrdmx52j2Qc",
@@ -26,12 +28,14 @@
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
+        // DON'T REMOVE THIS
+        // firebase.analytics();
     </script>
 
 </head>
-<body>
+<body onload="startTime()">
   <section id="whenSignedOut">
+    <img src="./src/assets/heySara - Light.png" alt="logo" class="auth-logo">
     <button id="signInBtn">Sign in with Google</button>
   </section>
 
