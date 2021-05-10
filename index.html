@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sara</title>
     <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="shortcut icon" href="src/assets/favicon.png" type="image/x-icon">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
 
     <!-- FIREBASE -->
@@ -13,6 +14,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
 
+    <!-- Firebase Initialisation -->
     <script>
         var firebaseConfig = {
             apiKey: "AIzaSyDOT8qx1RANYaxjmatYeWsPvrdmx52j2Qc",
@@ -27,6 +29,7 @@
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
     </script>
+
 </head>
 <body>
   <section id="whenSignedOut">
@@ -36,15 +39,20 @@
   <section id="whenSignedIn" hidden="true">
     <nav>
     <div id="userDetails"></div>
-
     <h3 id="time"></h3>
     <!-- <button id="signOutBtn">Sign Out</button> -->
   </nav>
-      <div class="App"></div>
+      <div class="App">
+        <button id="btn">Push to talk</button>
+        <div id="userText"></div>
+      </div>
   </section>
-    <!-- <script src="https://code.responsivevoice.org/responsivevoice.js?key=mRuyi1Z9"></script> -->
+
+  <!-- JavaScript files used -->
   <script src="./src/scripts/index.js"></script>
   <script src="./src/scripts/auth.js"></script>
   <script src="./src/scripts/app.js"></script>
+  <script src="./src/scripts/assistant.js"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=mRuyi1Z9"></script>
 </body>
 </html>
