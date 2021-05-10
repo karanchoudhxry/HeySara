@@ -36,6 +36,9 @@ You can refer to the following articles on  **_basics of Git and Github in case 
 -   [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 -   [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
+## Deployment
+
+You can have a glimpse of the continous deployment [here](https://sara-test-dev.netlify.app/)
 
 ## Show your support
 
