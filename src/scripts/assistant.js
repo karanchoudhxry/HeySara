@@ -13,6 +13,7 @@ recognition.onresult = (event) => {
     const crntText = event.resultIndex;
     const transcript  = event.results[crntText][0].transcript;
     text.textContent = transcript;
+    console.log(transcript);
 }
 
 btn.addEventListener("click",() => {
