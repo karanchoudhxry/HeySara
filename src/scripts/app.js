@@ -1,7 +1,3 @@
-const body = document.body;
-
-body.addEventListener("load", startTime);
-
 function startTime() {
   var today = new Date();
   var h = today.getHours();
