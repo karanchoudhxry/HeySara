@@ -12,7 +12,7 @@ recognition.onstart = () => {
 recognition.onresult = (event) => {
     const crntText = event.resultIndex;
     const transcript  = event.results[crntText][0].transcript;
-    text.textContent = transcript;
+    responsiveVoice.speak(transcript);
     console.log(transcript);
 }
 
