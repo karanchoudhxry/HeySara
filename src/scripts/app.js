@@ -5,7 +5,8 @@ function startTime() {
   var s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML = h + ":" + m;
+  document.getElementById('txt').innerHTML = 
+  h + ":" + m;
   var t = setTimeout(startTime, 1000);
 }
 function checkTime(i) {
