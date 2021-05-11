@@ -6,7 +6,8 @@ var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogniti
 const recognition = new SpeechRecognition();
 
 recognition.onstart = () => {
-    console.log("Assistant activated !! Now you can speak the microphone !!")
+    
+    responsiveVoice.speak("Assistant activated !! Now you can speak in the microphone !!")
 }
 
 recognition.onresult = (event) => {
@@ -18,17 +19,6 @@ recognition.onresult = (event) => {
 
 const day = new Date();
 var h = day.getHours();
-
-function greetings() {
-    if (h < 12) {
-      responsiveVoice.speak("Good Morning User!");
-    } else if (h >= 12 && h < 16) {
-      responsiveVoice.speak("Good Afternoon User!");
-    } else if (h >= 16) {
-      responsiveVoice.speak("Good evening User!");
-    }
-  }
-greetings();
 
 btn.addEventListener("click",() => {
     recognition.start();
