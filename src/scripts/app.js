@@ -1,12 +1,15 @@
-function greetings() {
-  if (h < 12) {
-    responsiveVoice.speak("Good Morning User!");
-  } else if (h >= 12 && h < 16) {
-    responsiveVoice.speak("Good Afternoon User!");
-  } else if (h >= 16) {
-    responsiveVoice.speak("Good evening User!");
-  }
-}
+// This part doesnt work--Please review!!
+
+// function greetings() {
+//   if (h < 12) {
+//     responsiveVoice.speak("Good Morning User!");
+//   } else if (h >= 12 && h < 16) {
+//     responsiveVoice.speak("Good Afternoon User!");
+//   } else if (h >= 16) {
+//     responsiveVoice.speak("Good evening User!");
+//   }
+// }
+// ---------------------------------------------------------
 
 const body = document.body;
 var today = new Date();
