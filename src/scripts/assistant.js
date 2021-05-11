@@ -19,8 +19,8 @@ recognition.onresult = (event) => {
   const transcript = event.results[crntText][0].transcript;
   console.log(transcript)
   if(greetingCommands.includes = transcript){
-      responsiveVoice.speak(greetingCommands[Random(greetingCommands.length)] + "User")
-      console.log(greetingCommands[Random(greetingCommands.length)] + " User");
+      responsiveVoice.speak("true")
+    //   console.log(greetingCommands[Random(greetingCommands.length)] + " User");
   }
 }
 
