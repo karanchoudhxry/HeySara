@@ -1,24 +1,30 @@
-const btn = document.querySelector("#btn");
+const btn = document.querySelector("#Speak");
 const text = document.querySelector("#userText");
 
 var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 
+function Random(maximum){
+    Math.floor(Math.random() * maximum);
+}
+
 const recognition = new SpeechRecognition();
+const greetingCommands = ["Hello", "Hi", "Heya", "Howdy", "Namaste","Hola", "Hey", "Hey there"]
 
 recognition.onstart = () => {
-    
-    responsiveVoice.speak("Assistant activated !! Now you can speak in the microphone !!")
+    console.log("Please Speak!")
 }
 
 recognition.onresult = (event) => {
   const crntText = event.resultIndex;
   const transcript = event.results[crntText][0].transcript;
-  responsiveVoice.speak(transcript);
-  console.log(transcript); 
+  if(transcript.includes = greetingCommands){
+      responsiveVoice.speak(greetingCommands[Random(greetingCommands.length)] + "User")
+      console.log(greetingCommands[Random(greetingCommands.length)] + "User");
+  }
 }
 
-const day = new Date();
-var h = day.getHours();
+// const day = new Date();
+// var h = day.getHours();
 
 btn.addEventListener("click",() => {
     recognition.start();
