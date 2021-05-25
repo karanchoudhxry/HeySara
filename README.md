@@ -12,9 +12,7 @@
   </a>
 </p>
 
-> This project aims at making a virtual P.A. with better UI and more flexibility to more user commands. 
- In the code files, you can see the HTMl, CSS and JavaScript documents which are the main files. Other than these 
- you can see the assets (images,videos and sounds) and two other folders- The Welcome Page and the JukeBox.
+> This project aims at creating a virtual Personal Assistant with more User-Freindly commands.
 
 ### 🏠 [Homepage](https://github.com/Pseudo-Pythonic/Sara-Personal-Assistant#readme)
 
