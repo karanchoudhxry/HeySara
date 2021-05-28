@@ -3,6 +3,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     height: fit-content;
+    color:white
   }
   
   nav {
@@ -73,9 +74,18 @@ div.temperature-value > p{
   font-size: 30px;
   color: white;
 }
-div.location > p{
+#whenSignedIn > nav > div.weather-container > div.location{
   color: #a2a2a2;
   font-size: 18px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+#whenSignedIn > nav > div.news-container > h2{
+  color: #a2a2a2;
+  font-size: 24px;
   max-width: 100%;
   text-align: center;
   margin-top: 10px;
