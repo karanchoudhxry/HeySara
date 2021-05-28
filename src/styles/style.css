@@ -80,14 +80,14 @@ div.temperature-value > p{
   max-width: 100%;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 #whenSignedIn > nav > div.news-container > h2{
-  color: #a2a2a2;
-  font-size: 24px;
+  color: #ffffff;
+  font-size: 30px;
   max-width: 100%;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 18px;
   margin-bottom: 0px;
 }
