@@ -58,3 +58,13 @@ body {
   color: white;
   padding: 14px 24px 14px 24px;
 }
+
+div .widget-container{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+div .temperature-value{
+  padding-left: 20px;
+}
