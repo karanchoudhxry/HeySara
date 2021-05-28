@@ -64,7 +64,12 @@ div .widget-container{
   align-items: center;
   justify-content: center
 }
+div.weather-icon > img{
+  width: 90px;
+  height: auto;
+}
 
-div .temperature-value{
-  padding-left: 20px;
+div.temperature-value > p{
+  font-size: 30px;
+  color: white;
 }
