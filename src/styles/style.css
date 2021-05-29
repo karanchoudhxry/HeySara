@@ -3,6 +3,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     height: fit-content;
+    color:white
   }
   
   nav {
@@ -57,4 +58,36 @@ body {
   background-color: black;
   color: white;
   padding: 14px 24px 14px 24px;
+}
+
+div .widget-container{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+div.weather-icon > img{
+  width: 90px;
+  height: auto;
+}
+
+div.temperature-value > p{
+  font-size: 32px;
+  color: white;
+}
+div.weather-container > div.location{
+  color: #a2a2a2;
+  font-size: 18px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+div.news-container > h2{
+  color: white;
+  font-size: 36px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 0px;
 }
